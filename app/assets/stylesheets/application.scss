@@ -1,0 +1,91 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ @import "bootstrap-sprockets";  
+ @import "bootstrap";
+
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+ h1,h2,h3,h4,p {
+   margin: 0;
+   padding: 0;
+   color: white;
+ }
+
+ body {
+   background-color: black;
+ }
+
+ .navbar-left {
+   font-size: 35px;
+   margin-top: 15px;
+ }
+
+ .navbar-right li {
+   font-size: 25px;
+   margin: 22px 35px 0 0;
+  }
+
+  .nav_item {
+    color: white;
+  }
+  
+  .content {
+    margin-top: 100px;
+  }
+
+  .content h1 {
+    text-align: center;
+  }
+  
+  .portfolio {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .portfolio_item {
+    height: 400px;
+    width: 300px;
+  }
+  
+  .about {
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    width: 50vw;
+    height: 250px;
+    border-style: solid;
+  }
+
+  .about_item {
+    height: 250px;
+  }
+
+  .introduction {
+    margin-left: 25px;
+    width: 500px;
+  }
+  
+  .contact {
+    margin-top: 50px;
+    display: flex;
+    min-height: 700px;
+  }
